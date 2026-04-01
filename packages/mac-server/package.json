@@ -17,6 +17,15 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ampere1988/Sessix-Server.git"
+  },
+  "homepage": "https://github.com/ampere1988/Sessix-Server#readme",
+  "bugs": {
+    "url": "https://github.com/ampere1988/Sessix-Server/issues"
+  },
+  "license": "MIT",
   "engines": {
     "node": ">=22.0.0"
   },
