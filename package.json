@@ -1,0 +1,15 @@
+{
+  "name": "sessix-server-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "packages/mac-server"
+  ],
+  "scripts": {
+    "build": "npm --workspace=packages/shared run build && npm --workspace=packages/mac-server run build",
+    "dev": "npm --workspace=packages/shared run build && npm --workspace=packages/mac-server run dev"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
